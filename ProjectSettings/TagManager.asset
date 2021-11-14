@@ -44,3 +44,15 @@ TagManager:
   - name: background
     uniqueID: 2729343431
     locked: 0
+  - name: back-characters
+    uniqueID: 4159113241
+    locked: 0
+  - name: fore-characters
+    uniqueID: 3701220477
+    locked: 0
+  - name: textbox
+    uniqueID: 563530357
+    locked: 0
+  - name: cover layer
+    uniqueID: 637591853
+    locked: 0
