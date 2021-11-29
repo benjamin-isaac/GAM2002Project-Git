@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Area 1.unity
     guid: 6e161219e361d354fa29d68f14e6c673
+  - enabled: 1
+    path: Assets/Area 2 - Shelfall.unity
+    guid: 5e00accb16921644983b92a9effce8c6
+  - enabled: 1
+    path: Assets/Area 3 - Wasteland.unity
+    guid: 59b7401898c5ddc40ab6ca0712dde4ac
   m_configObjects: {}
