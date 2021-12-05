@@ -660,8 +660,8 @@ MonoBehaviour:
     - Oh, hello dear! Listen, I've been hearing a lot of chatter about a jewel thief...
     - I hope this isn't related to you; the Galactic Guards are rough enough on me
       without all this ring interrogation!
-    - I don't want to know anything about it, but here, please take your ring back,
-      dear.
+    - I don't want to know anything about what you're up to, but here, please take
+      your ring back, dear.
     - And please, Vasquez... stay out of trouble.
 --- !u!212 &209389371
 SpriteRenderer:
@@ -781,6 +781,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2093776096}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &209389374
 MonoBehaviour:
@@ -2758,7 +2770,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2093776097
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2822,14 +2834,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1948638638}
+      - m_Target: {fileID: 1948638639}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: LoadScene
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

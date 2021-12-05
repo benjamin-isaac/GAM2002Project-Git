@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Class Selection.unity
     guid: 7fcaec3832e8a754bb18ed09f036ef1e
+  - enabled: 1
+    path: Assets/Area 1 (Final).unity
+    guid: d278bc73093c9d24486f4d4c21bb3f56
+  - enabled: 1
+    path: Assets/GameEnd.unity
+    guid: f160b344db9085e4784003b54fc29e55
   m_configObjects: {}
